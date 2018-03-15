@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/maju6406/pe_console_tasks.svg?branch=master)](https://travis-ci.org/maju6406/pe_console_tasks)
 
 
-# pe_console_tasks
+
+# pe_console_task_toolkit
 
 #### Table of Contents
 
@@ -13,7 +14,15 @@
 
 ## Description
 
-This module provides the pe_console_tasks task. This task installs a collection of tasks that perform common Puppet Enterprise operations.
+This module provides the pe_console_task_toolkit task. This task installs a collection of tasks in the default global module path that perform common Puppet Enterprise operations. You should only run it once.
+
+Specifically, this task installs:
+* [beersy-cert_sign](https://forge.puppet.com/beersy/cert_sign)
+* [beersy-hiera_lookup](https://forge.puppet.com/beersy/hiera_lookup)
+* [beersy-pql_query](https://forge.puppet.com/beersy/pql_query)
+* [zack-exports](https://forge.puppet.com/zack/exports)
+* [nate-purge_node](https://forge.puppet.com/nate/cert_sign)
+
 
 ## Requirements
 This module is compatible with Puppet Enterprise and Puppet Bolt.

@@ -1,5 +1,5 @@
 {
-    "name": "beersy-pe_console_tasks",
+    "name": "beersy-pe_console_task_toolkit",
     "version": "0.1.0",
     "author": "Abir Majumdar",
     "summary": "Installs a collection of tasks that perform common Puppet Enterprise operations.",
